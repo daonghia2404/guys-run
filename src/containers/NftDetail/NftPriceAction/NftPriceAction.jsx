@@ -22,7 +22,11 @@ const NftPriceAction = ({ title, btnTitle, visible, label, subTitle, onClose, on
             <input type="number" placeholder="Enter values" />
             <Icon name={EIconName.Coin} />
           </div>
-          {subTitle && <div className="NftPriceAction-label text-center">{subTitle}</div>}
+          {subTitle && (
+            <div style={{ marginTop: '1.6rem' }} className="NftPriceAction-label text-center">
+              {subTitle}
+            </div>
+          )}
         </div>
       </div>
     </Modal>
