@@ -1,0 +1,32 @@
+export const EIconName = {
+  Menu: 'Menu',
+  ArrowLeft: 'ArrowLeft',
+  ArrowRight: 'ArrowRight',
+  AngleLeft: 'AngleLeft',
+  AngleRight: 'AngleRight',
+  Copy: 'Copy',
+  Pancake: 'Pancake',
+  Uniswap: 'Uniswap',
+  ArrowLongRight: 'ArrowLongRight',
+  Diamond: 'Diamond',
+  Ticket: 'Ticket',
+  Global: 'Global',
+  Shield: 'Shield',
+  Coin: 'Coin',
+  ChevronDown: 'ChevronDown',
+  ButtonToTop: 'ButtonToTop',
+  Heart: 'Heart',
+  HeartOutline: 'HeartOutline',
+  Close: 'Close',
+  Loaded: 'Loaded',
+  Loading: 'Loading',
+};
+
+export const EIconColor = {
+  BLACK: '#000',
+  WHITE: '#fff',
+  ELECTRIC_VIOLET: '#9C41F4',
+  SPRING_GREEN: '#00FF66',
+  GRAY: '#808080',
+  MARINER: '#2775CA',
+};

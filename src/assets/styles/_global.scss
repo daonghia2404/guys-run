@@ -1,0 +1,128 @@
+@import '~antd/dist/antd.css';
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+@import "~animate.css/animate.min.css";
+@import './fonts';
+@import './colors';
+@import './constants';
+@import './mixins';
+
+* {
+  font-family: Gilroy, sans-serif;
+  font-weight: 400;
+  scroll-behavior: smooth;
+  letter-spacing: .1rem;
+  line-height: 1.4;
+}
+
+html {
+  font-size: 10px;
+
+  @media (max-width: 1440px) {
+    font-size: 8px;
+  }
+}
+
+body {
+  background: $shark;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.col-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 105.4rem;
+  width: 100%;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+section.section {
+  padding: 9rem 0;
+}
+
+.ant-tooltip .ant-tooltip-inner {
+  border-radius: 1.6rem;
+  text-align: center;
+  background: $white;
+  box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%), 0 9px 28px 8px rgb(0 0 0 / 5%);
+  padding: 1rem 1.6rem;
+  font-size: 1.6rem;
+  color: $shark;
+  font-weight: 600;
+}
+
+.ant-tooltip-arrow-content {
+  background-color: $white;
+}
+
+.rotating {
+  animation: rotating 2s linear infinite;
+
+  @keyframes rotating {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}

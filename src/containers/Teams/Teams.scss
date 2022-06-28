@@ -1,0 +1,96 @@
+@import '../../assets/styles/global';
+
+.Teams {
+  &-title {
+    font-weight: 800;
+    color: $white;
+    text-align: center;
+    font-size: 4.8rem;
+    margin-bottom: 1.6rem;
+  }
+
+  &-description {
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+    color: rgba($white, 0.5);
+    max-width: 60rem;
+    margin: 0 auto 6rem;
+  }
+
+  &-carousel {
+    position: relative;
+    margin: -3.2rem;
+
+    @media (max-width: 575px) {
+      margin: -1.6rem;
+    }
+
+    &-item {
+      padding: 3.2rem;
+
+      @media (max-width: 575px) {
+        padding: 1.6rem;
+      }
+
+      &-card {
+        &:hover {
+          .Teams-carousel-item-card {
+            &-image {
+              img {
+                transform: scale(1.1);
+              }
+            }
+
+            &-name {
+              color: $spring-green;
+            }
+          }
+        }
+
+        &-image {
+          margin-bottom: 3rem;
+          overflow: hidden;
+          border-radius: 1rem;
+
+          img {
+            width: 100%;
+            transition: $common-transition;
+          }
+        }
+
+        &-name {
+          color: $white;
+          font-weight: 800;
+          font-size: 2.4rem;
+          transition: $common-transition;
+        }
+
+        &-subtitle,
+        &-description {
+          font-size: 1.4rem;
+          font-weight: 600;
+          color: rgba($white, 0.5)
+        }
+      }
+    }
+
+    .Carousels {
+      &-arrow {
+        position: absolute;
+        bottom: -6rem;
+        top: unset;
+        left: unset;
+        right: unset;
+
+        &.prev {
+          left: calc(50% - 3.2rem - 0.8rem);
+        }
+
+        &.next {
+          right: calc(50% - 3.2rem - 0.8rem);
+        }
+      }
+    }
+  }
+}
