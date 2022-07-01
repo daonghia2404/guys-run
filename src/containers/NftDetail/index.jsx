@@ -95,7 +95,7 @@ const NftDetail = ({ isOwn }) => {
               <div className="NftDetail-subtitle">GUYS.RUN</div>
               <div className="NftDetail-title">AIR FORCE 068 #42697</div>
               <div className="NftDetail-text">
-                Owned by <span>Nam Nguyen</span>
+                Owned by <span>Guys</span>
               </div>
             </div>
 
@@ -160,21 +160,21 @@ const NftDetail = ({ isOwn }) => {
               <div className="NftDetail-subtitle">GUYS.RUN</div>
               <div className="NftDetail-title">AIR FORCE 068 #42697</div>
               <div className="NftDetail-text">
-                Owned by <span>Nam Nguyen</span>
+                Owned by <span>Guys</span>
               </div>
             </div>
 
             <div className="NftDetail-card">
               <div className="NftDetail-countdown">
-                <div className="NftDetail-countdown-text">Sale ends June 23, 2022 at 10:55am GMT+7 </div>
+                <div className="NftDetail-countdown-text">Sale start July, 2022</div>
                 <div className="NftDetail-countdown-timer flex items-center">
                   <div className="NftDetail-countdown-timer-item">
-                    22
+                    00
                     <div className="NftDetail-countdown-text">Hours</div>
                   </div>
 
                   <div className="NftDetail-countdown-timer-item">
-                    06
+                    00
                     <div className="NftDetail-countdown-text">Minutes</div>
                   </div>
 
@@ -250,11 +250,10 @@ const NftDetail = ({ isOwn }) => {
                     <tr>
                       <td>
                         <div className="flex items-center">
-                          <Icon name={EIconName.Coin} />
-                          0.152
+                          <Icon name={EIconName.Coin} />-
                         </div>
                       </td>
-                      <td>$62.08</td>
+                      <td>$0.000</td>
                       <td>1 minutes</td>
                       <td>
                         <span>GUYS.RUN</span>
@@ -283,11 +282,10 @@ const NftDetail = ({ isOwn }) => {
                       <tr key={item}>
                         <td>
                           <div className="flex items-center">
-                            <Icon name={EIconName.Coin} />
-                            0.152
+                            <Icon name={EIconName.Coin} />-
                           </div>
                         </td>
-                        <td>$62.08</td>
+                        <td>$0.000</td>
                         <td>21% below</td>
                         <td>2 minutes</td>
                         <td>
@@ -321,8 +319,7 @@ const NftDetail = ({ isOwn }) => {
                         <td>List</td>
                         <td>
                           <div className="flex items-center">
-                            <Icon name={EIconName.Coin} />
-                            0.152
+                            <Icon name={EIconName.Coin} />-
                           </div>
                         </td>
                         <td>

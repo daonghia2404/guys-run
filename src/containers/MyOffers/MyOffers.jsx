@@ -27,11 +27,10 @@ const MyOffers = () => {
                     <tr key={item}>
                       <td>
                         <div className="flex items-center">
-                          <Icon name={EIconName.Coin} />
-                          0.152
+                          <Icon name={EIconName.Coin} />-
                         </div>
                       </td>
-                      <td>$62.08</td>
+                      <td>$0.000</td>
                       <td>21% below</td>
                       <td>2 minutes</td>
                       <td>
