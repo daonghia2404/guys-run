@@ -21,7 +21,7 @@ export const dataNftsListListData = [
     ticket: `${randomNumber(6)}/6`,
     shield: randomNumber(),
     global: `${randomNumber(240)}/240`,
-    coin: randomNumber(2000),
+    coin: '-',
     latestCoin: randomNumber(24),
   },
   {
@@ -32,7 +32,7 @@ export const dataNftsListListData = [
     ticket: `${randomNumber(6)}/6`,
     shield: randomNumber(),
     global: `${randomNumber(240)}/240`,
-    coin: randomNumber(2000),
+    coin: '-',
     latestCoin: randomNumber(24),
   },
   {
@@ -43,7 +43,7 @@ export const dataNftsListListData = [
     ticket: `${randomNumber(6)}/6`,
     shield: randomNumber(),
     global: `${randomNumber(240)}/240`,
-    coin: randomNumber(2000),
+    coin: '-',
     latestCoin: randomNumber(24),
   },
   {
@@ -54,7 +54,7 @@ export const dataNftsListListData = [
     ticket: `${randomNumber(6)}/6`,
     shield: randomNumber(),
     global: `${randomNumber(240)}/240`,
-    coin: randomNumber(2000),
+    coin: '-',
     latestCoin: randomNumber(24),
   },
   {
@@ -65,7 +65,7 @@ export const dataNftsListListData = [
     ticket: `${randomNumber(6)}/6`,
     shield: randomNumber(),
     global: `${randomNumber(240)}/240`,
-    coin: randomNumber(2000),
+    coin: '-',
     latestCoin: randomNumber(24),
   },
   {
@@ -76,7 +76,7 @@ export const dataNftsListListData = [
     ticket: `${randomNumber(6)}/6`,
     shield: randomNumber(),
     global: `${randomNumber(240)}/240`,
-    coin: randomNumber(2000),
+    coin: '-',
     latestCoin: randomNumber(24),
   },
   {
@@ -87,7 +87,7 @@ export const dataNftsListListData = [
     ticket: `${randomNumber(6)}/6`,
     shield: randomNumber(),
     global: `${randomNumber(240)}/240`,
-    coin: randomNumber(2000),
+    coin: '-',
     latestCoin: randomNumber(24),
   },
   {
@@ -98,7 +98,7 @@ export const dataNftsListListData = [
     ticket: `${randomNumber(6)}/6`,
     shield: randomNumber(),
     global: `${randomNumber(240)}/240`,
-    coin: randomNumber(2000),
+    coin: '-',
     latestCoin: randomNumber(24),
   },
 ];

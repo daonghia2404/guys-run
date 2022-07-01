@@ -20,7 +20,7 @@ const Home = () => {
       <GamePlay />
       <Systems />
       <Roadmap />
-      {/* <Teams /> */}
+      <Teams />
       <ProjectBackers />
       {/* <ProjectCommunities /> */}
       <Documents />

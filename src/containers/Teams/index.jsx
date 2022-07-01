@@ -12,12 +12,7 @@ const Teams = () => {
     <section className="Teams section" id="team">
       <div className="container">
         <div className="Teams-wrapper">
-          <div className="Teams-title">AMBASSADORS</div>
-          <div className="Teams-description">
-            OUR TEAM We cooperate between experienced professors who are experts in blockchain, gaming studios,
-            e-commerce associates, finance. And dynamic young members who adapt quickly to technology and experience in
-            the fitness & healthy lifestyle field.
-          </div>
+          <div className="Teams-title">GUYS TEAM</div>
 
           <div className="Teams-carousel">
             <Carousels
@@ -25,12 +20,12 @@ const Teams = () => {
               arrows
               slidesToShow={4}
               slidesToScroll={2}
-              rows={2}
               infinite={false}
               responsive={[
                 {
                   breakpoint: 991,
                   settings: {
+                    rows: 1,
                     slidesToShow: 3,
                     slidesToScroll: 1,
                   },
@@ -38,13 +33,14 @@ const Teams = () => {
                 {
                   breakpoint: 575,
                   settings: {
+                    rows: 2,
                     slidesToShow: 2,
                     slidesToScroll: 1,
                   },
                 },
               ]}
             >
-              {[...dataTeams, ...dataTeams].map((item, index) => (
+              {dataTeams.map((item, index) => (
                 <AnimationOnScroll key={index} animateIn="animate__fadeInUp" delay={(index * 1000) / 4}>
                   <div className="Teams-carousel-item">
                     <div className="Teams-carousel-item-card">

@@ -29,6 +29,10 @@
           padding: 2.4rem;
           transition: $common-transition;
           transform: translateX(150%);
+          background: rgba(201, 201, 201, 0.2);
+          border: 1px solid $scorpion;
+          backdrop-filter: blur(40px);
+          border-radius: 8px;
 
           &.visible {
             transform: translateX(0);

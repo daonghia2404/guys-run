@@ -80,14 +80,6 @@ const NftDetail = ({ isOwn }) => {
       <div className="container">
         <div className="NftDetail-wrapper flex flex-wrap justify-between">
           <div className="NftDetail-wrapper-item">
-            <div className="NftDetail-group-title mobile">
-              <div className="NftDetail-subtitle">GUYS.RUN</div>
-              <div className="NftDetail-title">AIR FORCE 068 #42697</div>
-              <div className="NftDetail-text">
-                Owned by <span>Nam Nguyen</span>
-              </div>
-            </div>
-
             <div className="NftDetail-card">
               <div className="NftDetail-image">
                 <img src={ImageNftDetail} alt="" />
@@ -96,6 +88,14 @@ const NftDetail = ({ isOwn }) => {
               <div className="NftDetail-favorites flex items-center" onClick={toggleFavorite}>
                 4
                 <Icon name={isFavorite ? EIconName.Heart : EIconName.HeartOutline} color={EIconColor.WHITE} />
+              </div>
+            </div>
+
+            <div className="NftDetail-group-title mobile">
+              <div className="NftDetail-subtitle">GUYS.RUN</div>
+              <div className="NftDetail-title">AIR FORCE 068 #42697</div>
+              <div className="NftDetail-text">
+                Owned by <span>Nam Nguyen</span>
               </div>
             </div>
 
@@ -198,9 +198,9 @@ const NftDetail = ({ isOwn }) => {
                   ) : (
                     <>
                       <span className="NftDetail-price-text">
-                        <strong>2555</strong>
+                        <strong>-</strong>
                       </span>
-                      <span className="NftDetail-price-text">($ 1000.00)</span>
+                      <span className="NftDetail-price-text">($ 0.000)</span>
                     </>
                   )}
                 </div>
