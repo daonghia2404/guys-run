@@ -33,7 +33,7 @@ const BuyNftModal = ({ visible, onClose, onSubmit }) => {
         <div className="BuyNftModal-label">Item</div>
         <div className="BuyNftModal-label flex items-center">
           <Icon name={EIconName.Coin} />
-          <strong>120.00</strong>
+          <strong>0.000</strong>
         </div>
       </div>
 
@@ -41,7 +41,7 @@ const BuyNftModal = ({ visible, onClose, onSubmit }) => {
         <div className="BuyNftModal-label">Total</div>
         <div className="BuyNftModal-label flex items-center">
           <Icon name={EIconName.Coin} />
-          <strong>122.00</strong>
+          <strong>0.000</strong>
         </div>
       </div>
     </Modal>
