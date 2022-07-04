@@ -1,4 +1,5 @@
 import React from 'react';
+import classNames from 'classnames';
 
 import Logo from '@/assets/images/logo.svg';
 import { dataMenu } from '@/containers/Header/Header.data';
@@ -25,9 +26,15 @@ const Footer = () => {
           <div className="Footer-wrapper-item">
             <div className="Footer-list flex flex-wrap">
               {dataMenu.map((item, index) => (
-                <a key={index} className="Footer-list-item" href={item.link}>
+                <Link
+                  key={index}
+                  className={classNames('Footer-list-item', {
+                    active: `${location.pathname}${location.hash}` === `${item.link}${item.hash}`,
+                  })}
+                  to={`${item.link}${item.hash}`}
+                >
                   {item.title}
-                </a>
+                </Link>
               ))}
             </div>
           </div>

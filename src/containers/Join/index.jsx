@@ -32,7 +32,7 @@ const Join = () => {
             </AnimationOnScroll>
             <div className="Join-socials flex flex-wrap justify-end">
               {dataSocials.map((item, index) => (
-                <a key={index} className="Join-socials-item" href={item.link}>
+                <a key={index} className="Join-socials-item" href={item.link} target="_blank">
                   <AnimationOnScroll animateIn="animate__bounceIn" delay={(index * 1000) / 4}>
                     <img src={item.image} alt="" />
                   </AnimationOnScroll>

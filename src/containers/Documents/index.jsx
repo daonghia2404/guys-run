@@ -19,6 +19,10 @@ const Documents = () => {
     });
   };
 
+  const handleClickDocumentItem = (data) => {
+    if (data.link) window.open(data.link, '_target');
+  };
+
   useEffect(() => {
     configBackground();
   }, []);
@@ -39,7 +43,7 @@ const Documents = () => {
             <Carousels
               dots={false}
               arrows={false}
-              slidesToShow={3}
+              slidesToShow={1}
               slidesToScroll={1}
               autoplay
               responsive={[
@@ -58,7 +62,7 @@ const Documents = () => {
               ]}
             >
               {[...dataDocuments, ...dataDocuments].map((item, index) => (
-                <div key={index} className="Documents-carousel-item">
+                <div key={index} className="Documents-carousel-item" onClick={() => handleClickDocumentItem(item)}>
                   <div className="Documents-carousel-item-card">
                     <div className="Documents-carousel-item-card-image">
                       <img src={item.image} alt="" />
