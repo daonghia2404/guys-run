@@ -121,45 +121,31 @@ const Roadmap = () => {
               <div className="Roadmap-column" />
               <div className="Roadmap-column">
                 <div className="Roadmap-column-circle">
-                  {checkActiveRoadmap(2021, 4) && (
+                  {checkActiveRoadmap(2021, 1) && (
                     <AnimationOnScroll className="Roadmap-column-circle-center" animateIn="animate__bounceIn" />
                   )}
                 </div>
               </div>
               <div className="Roadmap-column">
-                <div className="Roadmap-column-subtitle">Q4-2021</div>
+                <div className="Roadmap-column-subtitle">Q1-2021</div>
                 <div className="Roadmap-column-title">
-                  Build up Community <br />
-                  IDO <br />
-                  Alpha Testing <br />
-                  PartnerShip
+                  Idea Completion <br />
+                  Market Research <br />
                 </div>
               </div>
             </div>
 
             <div className="Roadmap-row">
               <div className="Roadmap-column">
-                <div className="Roadmap-column-subtitle">Q1-2022</div>
+                <div className="Roadmap-column-subtitle">Q2-2022</div>
                 <div className="Roadmap-column-title">
                   Beta Testing <br />
-                  GUYS Token launch <br />
                   Solo Mode <br />
                   Experience Mode <br />
-                  Dapp Marketplace
+                  GUYS RUN App - Alpha Testnest <br />
+                  NFT Marketplace - Alpha Testnet <br />
                 </div>
               </div>
-              <div className="Roadmap-column">
-                <div className="Roadmap-column-circle">
-                  {checkActiveRoadmap(2022, 1) && (
-                    <AnimationOnScroll className="Roadmap-column-circle-center" animateIn="animate__bounceIn" />
-                  )}
-                </div>
-              </div>
-              <div className="Roadmap-column" />
-            </div>
-
-            <div className="Roadmap-row">
-              <div className="Roadmap-column" />
               <div className="Roadmap-column">
                 <div className="Roadmap-column-circle">
                   {checkActiveRoadmap(2022, 2) && (
@@ -167,30 +153,11 @@ const Roadmap = () => {
                   )}
                 </div>
               </div>
-              <div className="Roadmap-column">
-                <div className="Roadmap-column-subtitle">Q2-2022</div>
-                <div className="Roadmap-column-title">
-                  In-app Marketplace <br />
-                  NFT Sneaker System <br />
-                  Offical launch <br />
-                  Team Mode & Challenge <br />
-                  Task System <br />
-                  IEO/IDO
-                </div>
-              </div>
+              <div className="Roadmap-column" />
             </div>
 
             <div className="Roadmap-row">
-              <div className="Roadmap-column">
-                <div className="Roadmap-column-subtitle">Q3-2022</div>
-                <div className="Roadmap-column-title">
-                  Event Mode <br />
-                  Rental market <br />
-                  Check-in System <br />
-                  Upgrade attributes of sneakers <br />
-                  Achievement System
-                </div>
-              </div>
+              <div className="Roadmap-column" />
               <div className="Roadmap-column">
                 <div className="Roadmap-column-circle">
                   {checkActiveRoadmap(2022, 3) && (
@@ -198,11 +165,38 @@ const Roadmap = () => {
                   )}
                 </div>
               </div>
-              <div className="Roadmap-column" />
+              <div className="Roadmap-column">
+                <div className="Roadmap-column-subtitle">Q3-2022</div>
+                <div className="Roadmap-column-title">
+                  Partnerships & Global Marketing <br />
+                  GUYS Token Smartcontract And Audit <br />
+                  IEO/IDO <br />
+                  NFT Marketplace Official Version Release <br />
+                  Sneaker Collections Release <br />
+                  Official Launch <br />
+                  Team Mode & Challenge <br />
+                  Staking Pool <br />
+                  Event Mode <br />
+                  Rental Market <br />
+                  Check-in System V1 <br />
+                  Upgrades of Sneaker Attributes <br />
+                  Achievement System <br />
+                  Multichain Support/L2 <br />
+                </div>
+              </div>
             </div>
 
             <div className="Roadmap-row">
-              <div className="Roadmap-column" />
+              <div className="Roadmap-column">
+                <div className="Roadmap-column-subtitle">Q4-2022</div>
+                <div className="Roadmap-column-title">
+                  Check-in System V2 <br />
+                  Marathon Running Event <br />
+                  in Marina Beach, Dubai <br />
+                  Smartwatch App - Beta brr
+                  <br />
+                </div>
+              </div>
               <div className="Roadmap-column">
                 <div className="Roadmap-column-circle">
                   {checkActiveRoadmap(2022, 4) && (
@@ -210,26 +204,11 @@ const Roadmap = () => {
                   )}
                 </div>
               </div>
-              <div className="Roadmap-column">
-                <div className="Roadmap-column-subtitle">Q4-2022</div>
-                <div className="Roadmap-column-title">
-                  Mission <br />
-                  Staking Pool <br />
-                  Support multiple chains/L2 <br />
-                  Other NFTs
-                </div>
-              </div>
+              <div className="Roadmap-column" />
             </div>
 
             <div className="Roadmap-row">
-              <div className="Roadmap-column">
-                <div className="Roadmap-column-subtitle">Q1-2023</div>
-                <div className="Roadmap-column-title">
-                  AR Single Mode <br />
-                  Customization <br />
-                  Mobile App V2.0 Beta test
-                </div>
-              </div>
+              <div className="Roadmap-column" />
               <div className="Roadmap-column">
                 <div className="Roadmap-column-circle">
                   {checkActiveRoadmap(2023, 1) && (
@@ -237,7 +216,14 @@ const Roadmap = () => {
                   )}
                 </div>
               </div>
-              <div className="Roadmap-column" />
+              <div className="Roadmap-column">
+                <div className="Roadmap-column-subtitle">Q1-2023</div>
+                <div className="Roadmap-column-title">
+                  AR Single Mode <br />
+                  Customization <br />
+                  Mobile App V2.0 Beta test <br />
+                </div>
+              </div>
             </div>
           </div>
 
@@ -248,45 +234,31 @@ const Roadmap = () => {
               <div className="Roadmap-column" />
               <div className="Roadmap-column">
                 <div className="Roadmap-column-circle">
-                  {checkActiveRoadmap(2021, 4) && (
+                  {checkActiveRoadmap(2021, 1) && (
                     <AnimationOnScroll className="Roadmap-column-circle-center" animateIn="animate__bounceIn" />
                   )}
                 </div>
               </div>
               <div className="Roadmap-column">
-                <div className="Roadmap-column-subtitle">Q4-2021</div>
+                <div className="Roadmap-column-subtitle">Q1-2021</div>
                 <div className="Roadmap-column-title">
-                  Build up Community <br />
-                  IDO <br />
-                  Alpha Testing <br />
-                  PartnerShip
+                  Idea Completion <br />
+                  Market Research <br />
                 </div>
               </div>
             </div>
 
             <div className="Roadmap-row flex items-start justify-center">
               <div className="Roadmap-column">
-                <div className="Roadmap-column-subtitle">Q1-2022</div>
+                <div className="Roadmap-column-subtitle">Q2-2022</div>
                 <div className="Roadmap-column-title">
                   Beta Testing <br />
-                  GUYS Token launch <br />
                   Solo Mode <br />
                   Experience Mode <br />
-                  Dapp Marketplace
+                  GUYS RUN App - Alpha Testnest <br />
+                  NFT Marketplace - Alpha Testnet <br />
                 </div>
               </div>
-              <div className="Roadmap-column">
-                <div className="Roadmap-column-circle">
-                  {checkActiveRoadmap(2022, 1) && (
-                    <AnimationOnScroll className="Roadmap-column-circle-center" animateIn="animate__bounceIn" />
-                  )}
-                </div>
-              </div>
-              <div className="Roadmap-column" />
-            </div>
-
-            <div className="Roadmap-row flex items-start justify-center">
-              <div className="Roadmap-column" />
               <div className="Roadmap-column">
                 <div className="Roadmap-column-circle">
                   {checkActiveRoadmap(2022, 2) && (
@@ -294,30 +266,11 @@ const Roadmap = () => {
                   )}
                 </div>
               </div>
-              <div className="Roadmap-column">
-                <div className="Roadmap-column-subtitle">Q2-2022</div>
-                <div className="Roadmap-column-title">
-                  In-app Marketplace <br />
-                  NFT Sneaker System <br />
-                  Offical launch <br />
-                  Team Mode & Challenge <br />
-                  Task System <br />
-                  IEO/IDO
-                </div>
-              </div>
+              <div className="Roadmap-column" />
             </div>
 
             <div className="Roadmap-row flex items-start justify-center">
-              <div className="Roadmap-column">
-                <div className="Roadmap-column-subtitle">Q3-2022</div>
-                <div className="Roadmap-column-title">
-                  Event Mode <br />
-                  Rental market <br />
-                  Check-in System <br />
-                  Upgrade attributes of sneakers <br />
-                  Achievement System
-                </div>
-              </div>
+              <div className="Roadmap-column" />
               <div className="Roadmap-column">
                 <div className="Roadmap-column-circle">
                   {checkActiveRoadmap(2022, 3) && (
@@ -325,11 +278,37 @@ const Roadmap = () => {
                   )}
                 </div>
               </div>
-              <div className="Roadmap-column" />
+              <div className="Roadmap-column">
+                <div className="Roadmap-column-subtitle">Q3-2022</div>
+                <div className="Roadmap-column-title">
+                  Partnerships & Global Marketing <br />
+                  GUYS Token Smartcontract And Audit <br />
+                  IEO/IDO <br />
+                  NFT Marketplace Official Version Release <br />
+                  Sneaker Collections Release <br />
+                  Official Launch <br />
+                  Team Mode & Challenge <br />
+                  Staking Pool <br />
+                  Event Mode <br />
+                  Rental Market <br />
+                  Check-in System V1 <br />
+                  Upgrades of Sneaker Attributes <br />
+                  Achievement System <br />
+                  Multichain Support/L2 <br />
+                </div>
+              </div>
             </div>
 
             <div className="Roadmap-row flex items-start justify-center">
-              <div className="Roadmap-column" />
+              <div className="Roadmap-column">
+                <div className="Roadmap-column-subtitle">Q4-2022</div>
+                <div className="Roadmap-column-title">
+                  Check-in System V2 <br />
+                  Marathon Running Event <br />
+                  in Marina Beach, Dubai <br />
+                  Smartwatch App - Beta <br />
+                </div>
+              </div>
               <div className="Roadmap-column">
                 <div className="Roadmap-column-circle">
                   {checkActiveRoadmap(2022, 4) && (
@@ -337,26 +316,11 @@ const Roadmap = () => {
                   )}
                 </div>
               </div>
-              <div className="Roadmap-column">
-                <div className="Roadmap-column-subtitle">Q4-2022</div>
-                <div className="Roadmap-column-title">
-                  Mission <br />
-                  Staking Pool <br />
-                  Support multiple chains/L2 <br />
-                  Other NFTs
-                </div>
-              </div>
+              <div className="Roadmap-column" />
             </div>
 
             <div className="Roadmap-row flex items-start justify-center">
-              <div className="Roadmap-column">
-                <div className="Roadmap-column-subtitle">Q1-2023</div>
-                <div className="Roadmap-column-title">
-                  AR Single Mode <br />
-                  Customization <br />
-                  Mobile App V2.0 Beta test
-                </div>
-              </div>
+              <div className="Roadmap-column" />
               <div className="Roadmap-column">
                 <div className="Roadmap-column-circle">
                   {checkActiveRoadmap(2023, 1) && (
@@ -364,7 +328,14 @@ const Roadmap = () => {
                   )}
                 </div>
               </div>
-              <div className="Roadmap-column" />
+              <div className="Roadmap-column">
+                <div className="Roadmap-column-subtitle">Q1-2023</div>
+                <div className="Roadmap-column-title">
+                  AR Single Mode <br />
+                  Customization <br />
+                  Mobile App V2.0 Beta test <br />
+                </div>
+              </div>
             </div>
           </div>
         </div>
